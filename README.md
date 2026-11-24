@@ -1,4 +1,4 @@
-# 🛍️ MiniShop — Modern E-Ticaret Demo Projesi
+#  MiniShop — Modern E-Ticaret Demo Projesi
 
 MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backend gerektirmeyen, tamamen tarayıcı tarafında çalışan bir e-ticaret demo uygulamasıdır. Ürün verileri bir JSON dosyasından okunur; sepet, favoriler, kullanıcılar, siparişler, yorumlar ve stok değişiklikleri tarayıcının **LocalStorage** alanında saklanır.
 
