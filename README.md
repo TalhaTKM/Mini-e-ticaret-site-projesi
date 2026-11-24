@@ -2,11 +2,11 @@
 
 MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backend gerektirmeyen, tamamen tarayıcı tarafında çalışan bir e-ticaret demo uygulamasıdır. Ürün verileri bir JSON dosyasından okunur; sepet, favoriler, kullanıcılar, siparişler, yorumlar ve stok değişiklikleri tarayıcının **LocalStorage** alanında saklanır.
 
-> ⚠️ **Not:** Bu proje gerçek bir satış platformu değildir. Yalnızca frontend yeteneklerini göstermek amacıyla hazırlanmıştır. Gerçek ödeme alınmaz, gerçek kargo gönderilmez.
+>  **Not:** Bu proje gerçek bir satış platformu değildir. Yalnızca frontend yeteneklerini göstermek amacıyla hazırlanmıştır. Gerçek ödeme alınmaz, gerçek kargo gönderilmez.
 
 ---
 
-## 📑 İçindekiler
+##  İçindekiler
 
 - [Özellikler](#-özellikler)
 - [Sayfalar](#-sayfalar)
@@ -23,9 +23,9 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
 
 ---
 
-## ✨ Özellikler
+##  Özellikler
 
-### 🏠 Vitrin ve Ürün Keşfi
+###  Vitrin ve Ürün Keşfi
 - Hero alanı, özellik şeridi (ücretsiz kargo, güvenli ödeme, kolay iade, 7/24 destek)
 - Ana sayfada **Öne Çıkan Kategoriler**, **Çok Satanlar**, **Yeni Eklenenler** ve **İndirimli Ürünler** bölümleri
 - Kategori sayfasında gelişmiş filtreleme:
@@ -37,28 +37,28 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
 - URL parametreleriyle filtreleme (ör. `category.html?sort=rating`, `category.html?fav=1`)
 - Mobil uyumlu filtre paneli (aç/kapat butonu)
 
-### 📦 Ürün Detay
+###  Ürün Detay
 - Ürün görselleri, marka, fiyat, stok durumu
 - Teknik özellikler tablosu
 - Breadcrumb (sayfa yolu) navigasyonu
 - Benzer ürünler bölümü
 - Favorilere ekleme
 
-### ⭐ Yorum ve Puanlama Sistemi
+###  Yorum ve Puanlama Sistemi
 - 1–5 yıldız seçici (klavye/ekran okuyucu uyumlu `role="radiogroup"`)
 - Ortalama puan, toplam değerlendirme sayısı ve **yıldız dağılımı çubukları**
 - Form doğrulaması (isim, başlık, yorum uzunluğu)
 - Demo yorumları ayrı etiketle gösterilir
 - Yorum eklendiğinde ürün puanı anında güncellenir
 
-### 🛒 Sepet
+###  Sepet
 - Adet artır / azalt / doğrudan sayı girişi
 - Ürün kaldırma ve sepeti temizleme (onay penceresiyle)
 - Ara toplam, kargo ücreti ve genel toplam hesabı
 - **750 TL üzeri siparişlerde ücretsiz kargo** ve "kargo için kalan tutar" bilgilendirmesi
 - Sepetten ödemeye geçerken giriş kontrolü (giriş yoksa `redirect` ile login sayfasına yönlendirir)
 
-### 💳 Demo Ödeme (Checkout)
+###  Demo Ödeme (Checkout)
 - Teslimat bilgileri formu (profilden otomatik doldurma)
 - Demo kart doğrulaması + demo ödeme kodu
 - Kart numarası ve SKT alanlarında otomatik biçimlendirme (`4242 4242 ...`, `12/30`)
@@ -66,7 +66,7 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
 - Sipariş oluşturma, **stok düşürme**, adres bilgilerini profile kaydetme
 - Başarılı ödeme sonrası siparişlerim sayfasına yönlendirme
 
-### 👤 Kullanıcı Sistemi
+###  Kullanıcı Sistemi
 - Kayıt olma ve giriş yapma (form doğrulamalı)
 - Güvenli yönlendirme (`redirect` parametresi için whitelist kontrolü, açık yönlendirme / open redirect koruması)
 - Profil sayfası üç sekmeden oluşur:
@@ -75,17 +75,17 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
   - **Siparişlerim:** sipariş kartları, durum etiketi, başarılı siparişin vurgulanması
 - Favorilerim listesi
 
-### 🔧 Admin Paneli
+###  Admin Paneli
 - Yalnızca `admin` rolündeki kullanıcılar erişebilir
 - Tüm siparişlerin listesi (müşteri, adres, ürünler, toplam)
 - Kayıtlı kullanıcı listesi
 - **Stok yönetimi:** her ürün için stok değerini düzenleme ve kaydetme
 
-### 📄 Kurumsal Sayfalar
+###  Kurumsal Sayfalar
 - Hakkımızda, Yardım (SSS), Gizlilik Politikası, Kullanım Koşulları, KVKK Aydınlatma Metni, Mesafeli Satış Sözleşmesi (demo)
 - Hash tabanlı (`info.html#kvkk`) otomatik kaydırma
 
-### ♿ Erişilebilirlik ve UX
+###  Erişilebilirlik ve UX
 - "İçeriğe geç" (skip link) bağlantısı
 - `aria-label`, `aria-live`, `role` nitelikleri
 - Toast bildirimleri (başarı / hata / bilgi)
@@ -95,8 +95,7 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
 
 ---
 
-## 🗺️ Sayfalar
-
+##  Sayfalar
 | Sayfa | Dosya | Açıklama |
 |-------|-------|----------|
 | Ana Sayfa | `index.html` | Vitrin, kategoriler, öne çıkan ürünler |
@@ -112,7 +111,7 @@ MiniShop; **HTML5, CSS3 ve saf (vanilla) JavaScript** ile geliştirilmiş, backe
 
 ---
 
-## 🧰 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 - **HTML5** — anlamsal (semantic) yapı
 - **CSS3** — CSS değişkenleri, Grid, Flexbox, responsive tasarım
@@ -125,7 +124,7 @@ Hiçbir derleme (build) adımı, paket yöneticisi veya sunucu tarafı kod gerek
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 minishop/
@@ -154,11 +153,11 @@ minishop/
 └── products.json       # Ürün verileri (konumu projenize göre ayarlayın)
 ```
 
-> 📌 `products.json` dosyasının klasör konumu `js/app.js` içindeki fetch yoluna göre değişebilir. Projenizdeki gerçek yapıya göre bu bölümü düzenleyin.
+>  `products.json` dosyasının klasör konumu `js/app.js` içindeki fetch yoluna göre değişebilir. Projenizdeki gerçek yapıya göre bu bölümü düzenleyin.
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### 1. Projeyi klonlayın
 
@@ -187,7 +186,7 @@ Ardından tarayıcıda şu adresi açın: <http://localhost:8000>
 
 ---
 
-## 🔑 Demo Hesap ve Ödeme Bilgileri
+##  Demo Hesap ve Ödeme Bilgileri
 
 ### Admin hesabı
 
@@ -215,7 +214,7 @@ Kayıt sayfasından yeni bir hesap oluşturabilirsiniz (şifre en az 4 karakter)
 
 ---
 
-## ⚙️ Nasıl Çalışır?
+##  Nasıl Çalışır?
 
 ### Merkezi `App` nesnesi
 `app.js` dosyası `window.App` altında ortak işlevleri sunar. Diğer sayfa betikleri bu nesneyi kullanır:
@@ -256,7 +255,7 @@ localStorage.clear();
 
 ---
 
-## 🔒 Güvenlik Notları
+##  Güvenlik Notları
 
 Bu proje **eğitim ve gösterim** amaçlıdır. Üretim ortamında kullanılmamalıdır:
 
@@ -274,7 +273,7 @@ Gerçek bir e-ticaret uygulaması için sunucu tarafı kimlik doğrulama, şifre
 
 ---
 
-## 🌐 GitHub Pages ile Yayınlama
+##  GitHub Pages ile Yayınlama
 
 Proje statik olduğu için ücretsiz olarak yayınlanabilir:
 
@@ -286,7 +285,7 @@ Proje statik olduğu için ücretsiz olarak yayınlanabilir:
 
 ---
 
-## 💡 Geliştirme Fikirleri
+##  Geliştirme Fikirleri
 
 - [ ] Gerçek bir backend (Node.js / Express, Firebase, Supabase vb.) entegrasyonu
 - [ ] Şifrelerin hashlenmesi ve JWT tabanlı oturum
@@ -303,7 +302,7 @@ Proje statik olduğu için ücretsiz olarak yayınlanabilir:
 
 ---
 
-## 🤝 Katkıda Bulunma
+##  Katkıda Bulunma
 
 Katkılar memnuniyetle karşılanır!
 
@@ -312,19 +311,3 @@ Katkılar memnuniyetle karşılanır!
 3. Değişikliklerinizi commit edin: `git commit -m "Yeni özellik eklendi"`
 4. Dalınızı push edin: `git push origin ozellik/yeni-ozellik`
 5. Bir **Pull Request** açın.
-
----
-
-## 📜 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi kullanabilir, değiştirebilir ve dağıtabilirsiniz.
-
-> Lisans dosyası eklemek için repo ana dizinine bir `LICENSE` dosyası oluşturun (GitHub'da *Add file → Create new file → LICENSE* yazınca lisans şablonu seçeneği çıkar).
-
----
-
-## 👨‍💻 Geliştirici
-
-**Adınız Soyadınız** — [GitHub](https://github.com/KULLANICI_ADINIZ)
-
-⭐ Projeyi beğendiyseniz repoya yıldız vermeyi unutmayın!
