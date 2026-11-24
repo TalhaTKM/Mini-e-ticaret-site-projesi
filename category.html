@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürünler — MiniShop</title>
+  <meta name="description" content="Kategori, marka, fiyat ve stok filtreleriyle MiniShop ürünlerini keşfedin.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="category">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<header id="site-header" class="site-header"></header>
+
+<main id="main" class="container page">
+
+  <div class="section__head" style="margin-bottom:22px">
+    <div>
+      <h1 class="section__title" id="categoryTitle">Tüm Ürünler</h1>
+      <p class="section__sub" id="resultCount">Yükleniyor…</p>
+    </div>
+  </div>
+
+  <div class="category-layout">
+
+    <!-- FİLTRELER -->
+    <aside class="filters" id="filtersPanel">
+
+      <div class="filters__head">
+        <h2>Filtreler</h2>
+        <button type="button" class="btn btn--ghost" id="resetFilters" style="padding:6px 12px;font-size:.8rem">Temizle</button>
+      </div>
+
+      <div class="filter-group">
+        <h3 class="filter-group__title">Kategoriler</h3>
+        <div class="filter-list" id="categoryFilters"></div>
+      </div>
+
+      <div class="filter-group">
+        <h3 class="filter-group__title">Fiyat Aralığı</h3>
+        <div class="price-inputs">
+          <input type="number" id="minPrice" min="0" step="1" placeholder="En az" aria-label="Minimum fiyat">
+          <span>—</span>
+          <input type="number" id="maxPrice" min="0" step="1" placeholder="En çok" aria-label="Maksimum fiyat">
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h3 class="filter-group__title">Markalar</h3>
+        <div class="filter-list" id="brandFilters"></div>
+      </div>
+
+      <div class="filter-group">
+        <h3 class="filter-group__title">Stok Durumu</h3>
+        <label class="switch">
+          <input type="checkbox" id="inStockOnly">
+          <span>Sadece stokta olanlar</span>
+        </label>
+      </div>
+
+    </aside>
+
+    <!-- SONUÇLAR -->
+    <section>
+
+      <div class="toolbar">
+        <button type="button" class="btn btn--ghost filter-toggle" id="filterToggle" aria-expanded="false">
+          Filtreler
+        </button>
+        <div class="toolbar__count" aria-live="polite"></div>
+        <label class="sr-only" for="sortSelect">Sıralama</label>
+        <select class="select" id="sortSelect">
+          <option value="default">Önerilen Sıralama</option>
+          <option value="price-asc">Fiyat: Artan</option>
+          <option value="price-desc">Fiyat: Azalan</option>
+          <option value="rating">En Çok Değerlendirilen</option>
+          <option value="newest">En Yeni</option>
+        </select>
+      </div>
+
+      <div class="product-grid" id="categoryGrid"></div>
+
+    </section>
+
+  </div>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="modal-root"></div>
+
+<script src="js/app.js"></script>
+<script src="js/products.js"></script>
+</body>
+</html>

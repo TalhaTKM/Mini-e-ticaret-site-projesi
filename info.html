@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurumsal — MiniShop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="info">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+<header id="site-header" class="site-header"></header>
+
+<main id="main" class="container page">
+  <div id="infoRoot">
+
+    <section class="detail-block" id="about">
+      <h1 class="detail-block__title">Hakkımızda</h1>
+      <p>MiniShop, modern alışveriş deneyimini herkes için erişilebilir kılmayı hedefleyen bir demo e-ticaret projesidir.</p>
+      <p>Bu proje; HTML5, CSS3 ve saf JavaScript kullanılarak, herhangi bir backend bağlantısı olmadan geliştirilmiştir. Ürün verileri JSON dosyasından, sepet ve yorum verileri ise tarayıcı LocalStorage üzerinden yönetilir.</p>
+      <p>Gerçek bir satış platformu değildir; yalnızca frontend yeteneklerini göstermek amacıyla hazırlanmıştır.</p>
+    </section>
+
+    <section class="detail-block" id="help">
+      <h1 class="detail-block__title">Yardım</h1>
+      <h3>Siparişim ne zaman gelir?</h3>
+      <p>Bu bir demo projedir, gerçek kargo gönderimi yapılmaz. Ödeme tamamlandığında sipariş kaydı oluşturulur; teslimat simüle edilir.</p>
+      <h3>İade yapabilir miyim?</h3>
+      <p>Demo kapsamında iade süreci simüle edilir. Gerçek bir ürün gönderilmediği için fiziki iade gerekmez.</p>
+      <h3>Ödeme nasıl çalışıyor?</h3>
+      <p>Ödeme sayfasında demo kart bilgileri (<code>4242 4242 4242 4242</code> / <code>DEMO KART</code> / <code>12/30</code> / <code>123</code>) ve demo kodu (<code>DEMO2026</code>) girilerek sipariş tamamlanır. Gerçek para çekilmez.</p>
+      <h3>Sipariş iptal / adres değişikliği</h3>
+      <p>Demo kapsamında iptal ve adres değişikliği desteklenmez. Siparişler yalnızca gösterim amaçlıdır.</p>
+      <h3>Hesabımı nasıl silerim?</h3>
+      <p>Tarayıcınızın geliştirici araçlarından LocalStorage'ı temizleyerek tüm hesap, sepet ve favori verilerini silebilirsiniz.</p>
+    </section>
+
+    <section class="detail-block" id="privacy">
+      <h1 class="detail-block__title">Gizlilik Politikası</h1>
+      <p>Bu demo projede toplanan hiçbir veri sunucuya gönderilmez. Tüm bilgiler yalnızca sizin tarayıcınızın LocalStorage alanında saklanır.</p>
+      <p>Sepet, favoriler, yorumlar, kullanıcı hesabı ve siparişler yalnızca cihazınızda tutulur; üçüncü kişilerle paylaşılmaz.</p>
+      <p>LocalStorage verilerini temizlemek için tarayıcı ayarlarınızdan site verilerini silebilir veya geliştirici konsolunda <code>localStorage.clear()</code> komutunu çalıştırabilirsiniz.</p>
+      <p>Çerez kullanılmaz. Analitik, reklam veya izleme aracı bulunmamaktadır.</p>
+    </section>
+
+    <section class="detail-block" id="terms">
+      <h1 class="detail-block__title">Kullanım Koşulları</h1>
+      <p>Bu site bir demo projedir ve ticari amaç taşımaz. Siteyi kullanarak aşağıdaki koşulları kabul etmiş sayılırsınız:</p>
+      <ul style="padding-left:1.2rem;list-style:disc;">
+        <li>Site içeriği yalnızca bilgilendirme amaçlıdır; gerçek bir satış sözleşmesi oluşturmaz.</li>
+        <li>Ürün fiyatları ve stok bilgileri temsilidir.</li>
+        <li>Demo kart bilgileri dışında hiçbir ödeme bilgisi kabul edilmez.</li>
+        <li>Siteyi kötüye kullanım, otomatik veri toplama veya güvenlik ihlali girişimleri yasaktır.</li>
+        <li>Proje sahibi, sitenin kullanımından doğacak zararlardan sorumlu tutulamaz.</li>
+      </ul>
+    </section>
+
+    <section class="detail-block" id="kvkk">
+      <h1 class="detail-block__title">KVKK Aydınlatma Metni</h1>
+      <p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında hazırlanan bu metin, demo proje süresince işlenen veriler hakkında bilgi verir.</p>
+      <p><strong>İşlenen veriler:</strong> Ad soyad, e-posta, telefon, şehir ve adres bilgileri (yalnızca sipariş tamamlama sırasında, LocalStorage'da saklanır).</p>
+      <p><strong>İşleme amacı:</strong> Demo sipariş simülasyonu ve kullanıcı hesabı oluşturma.</p>
+      <p><strong>Saklama süresi:</strong> Kullanıcı tarafından silinene kadar (tarayıcı LocalStorage'ı).</p>
+      <p><strong>Aktarım:</strong> Hiçbir veri üçüncü taraflara aktarılmaz.</p>
+      <p><strong>Haklarınız:</strong> KVKK md. 11 kapsamında verilerinizin silinmesini talep edebilirsiniz. Bunun için tarayıcı ayarlarınızdan site verilerini temizlemeniz yeterlidir.</p>
+    </section>
+
+    <section class="detail-block" id="distance-sales">
+      <h1 class="detail-block__title">Mesafeli Satış Sözleşmesi (Demo)</h1>
+      <p>Bu metin yalnızca demo amaçlıdır ve gerçek bir mesafeli satış sözleşmesi hükmü taşımaz.</p>
+      <p><strong>Satıcı:</strong> MiniShop Demo</p>
+      <p><strong>Alıcı:</strong> Ödeme sayfasında bilgilerini giren kullanıcı.</p>
+      <p><strong>Konu:</strong> Sepetteki ürünlerin demo ödeme kodu ile satın alınması.</p>
+      <p><strong>Teslimat:</strong> Demo kapsamında fiziksel teslimat yapılmaz. Sipariş yalnızca LocalStorage'a kaydedilir.</p>
+      <p><strong>Ödeme:</strong> Sadece demo kart (<code>4242 4242 4242 4242</code>) ve demo kod (<code>DEMO2026</code>) kabul edilir.</p>
+      <p><strong>Cayma hakkı:</strong> Gerçek ürün gönderilmediği için cayma hakkı söz konusu değildir.</p>
+      <p><strong>Uyuşmazlık:</strong> Demo proje olduğu için yasal uyuşmazlık doğmaz.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="modal-root"></div>
+
+<script src="js/app.js"></script>
+<script src="js/info.js"></script>
+</body>
+</html>

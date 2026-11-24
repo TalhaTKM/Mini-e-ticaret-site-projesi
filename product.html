@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürün Detayı — MiniShop</title>
+  <meta name="description" content="Ürün detayları, teknik özellikler, taksit seçenekleri ve kullanıcı yorumları.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="product">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<header id="site-header" class="site-header"></header>
+
+<main id="main" class="container page">
+
+  <nav class="breadcrumb" id="breadcrumb" aria-label="Sayfa yolu"></nav>
+
+  <div id="productDetail"></div>
+
+  <div id="reviewsRoot"></div>
+
+  <section class="section" id="relatedSection" style="padding-bottom:0">
+    <div class="section__head">
+      <div>
+        <h2 class="section__title">Benzer Ürünler</h2>
+        <p class="section__sub">Bu ürünle birlikte beğenebilecekleriniz</p>
+      </div>
+      <a class="link-more" href="category.html">Tümünü Gör →</a>
+    </div>
+    <div class="product-grid" id="relatedGrid"></div>
+  </section>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="modal-root"></div>
+
+<script src="js/app.js"></script>
+<script src="js/products.js"></script>
+<script src="js/reviews.js"></script>
+</body>
+</html>

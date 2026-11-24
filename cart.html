@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sepetim — MiniShop</title>
+  <meta name="description" content="Sepetinizdeki ürünleri görüntüleyin, adetleri güncelleyin ve ödemeye geçin.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+</head>
+<body data-page="cart">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<header id="site-header" class="site-header"></header>
+
+<main id="main" class="container page">
+
+  <div class="section__head" style="margin-bottom:22px">
+    <div>
+      <h1 class="section__title">Sepetim</h1>
+      <p class="section__sub">Sepetinizde <strong id="cartItemCount">0</strong> ürün bulunuyor</p>
+    </div>
+  </div>
+
+  <div id="cartRoot"></div>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="modal-root"></div>
+
+<script src="js/app.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,534 @@
+[
+  {
+    "id": 1,
+    "name": "Kablosuz Kulaklık Pro X",
+    "brand": "TechNova",
+    "category": "Elektronik",
+    "description": "Aktif gürültü engelleme, 30 saate kadar pil ömrü ve premium ses kalitesi sunan kablosuz kulak üstü kulaklık. Bluetooth 5.3 ile kesintisiz bağlantı, hızlı şarj desteği ve katlanabilir gövde tasarımı bir arada.",
+    "price": 2499,
+    "oldPrice": 3499,
+    "images": [
+      "https://picsum.photos/seed/ms-headphone-1/900/900",
+      "https://picsum.photos/seed/ms-headphone-2/900/900",
+      "https://picsum.photos/seed/ms-headphone-3/900/900"
+    ],
+    "stock": 24,
+    "warranty": "2 Yıl Resmi Distribütör Garantisi",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.6,
+    "reviewCount": 128,
+    "createdAt": "2025-11-02",
+    "specifications": {
+      "Bağlantı": "Bluetooth 5.3",
+      "Pil Ömrü": "30 saate kadar",
+      "Şarj Süresi": "2 saat",
+      "Ağırlık": "245 g",
+      "Renk": "Gece Siyahı",
+      "Garanti": "2 Yıl"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Akıllı Saat Fit 5",
+    "brand": "TechNova",
+    "category": "Elektronik",
+    "description": "Nabız, uyku ve stres takibi yapan, 100'den fazla spor modu bulunan akıllı saat. AMOLED ekran, 14 güne kadar pil ömrü ve 5 ATM su direnci ile günlük kullanım için ideal.",
+    "price": 1899,
+    "oldPrice": 2599,
+    "images": [
+      "https://picsum.photos/seed/ms-watch-1/900/900",
+      "https://picsum.photos/seed/ms-watch-2/900/900",
+      "https://picsum.photos/seed/ms-watch-3/900/900"
+    ],
+    "stock": 41,
+    "warranty": "2 Yıl Resmi Distribütör Garantisi",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.4,
+    "reviewCount": 96,
+    "createdAt": "2025-12-18",
+    "specifications": {
+      "Ekran": "1.85\" AMOLED",
+      "Pil Ömrü": "14 gün",
+      "Su Direnci": "5 ATM",
+      "Sensörler": "Nabız, SpO2, İvmeölçer",
+      "Uyumluluk": "Android / iOS",
+      "Garanti": "2 Yıl"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Hoparlör Mini",
+    "brand": "SoundWave",
+    "category": "Elektronik",
+    "description": "Kompakt gövdesine rağmen güçlü bas sunan taşınabilir Bluetooth hoparlör. IPX7 su geçirmezlik, 12 saat pil ömrü ve çift eşleştirme desteği ile açık hava kullanımına uygun.",
+    "price": 749,
+    "oldPrice": 999,
+    "images": [
+      "https://picsum.photos/seed/ms-speaker-1/900/900",
+      "https://picsum.photos/seed/ms-speaker-2/900/900",
+      "https://picsum.photos/seed/ms-speaker-3/900/900"
+    ],
+    "stock": 0,
+    "warranty": "1 Yıl Garanti",
+    "installmentOptions": [3, 6],
+    "rating": 4.2,
+    "reviewCount": 54,
+    "createdAt": "2025-09-11",
+    "specifications": {
+      "Çıkış Gücü": "20 W",
+      "Pil Ömrü": "12 saat",
+      "Su Geçirmezlik": "IPX7",
+      "Bağlantı": "Bluetooth 5.1",
+      "Ağırlık": "540 g",
+      "Garanti": "1 Yıl"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Dizüstü Bilgisayar Air 14",
+    "brand": "ZenBook",
+    "category": "Elektronik",
+    "description": "14 inç IPS ekran, 16 GB RAM ve 512 GB NVMe SSD ile günlük iş ve öğrenci kullanımı için tasarlanmış ince ve hafif dizüstü bilgisayar. Alüminyum gövde, arkadan aydınlatmalı klavye ve uzun pil ömrü.",
+    "price": 24999,
+    "oldPrice": 29999,
+    "images": [
+      "https://picsum.photos/seed/ms-laptop-1/900/900",
+      "https://picsum.photos/seed/ms-laptop-2/900/900",
+      "https://picsum.photos/seed/ms-laptop-3/900/900"
+    ],
+    "stock": 8,
+    "warranty": "2 Yıl Resmi Distribütör Garantisi",
+    "installmentOptions": [6, 9, 12, 18],
+    "rating": 4.7,
+    "reviewCount": 212,
+    "createdAt": "2026-01-08",
+    "specifications": {
+      "Ekran": "14\" IPS 1920x1200",
+      "İşlemci": "8 Çekirdekli 4.2 GHz",
+      "RAM": "16 GB LPDDR5",
+      "Depolama": "512 GB NVMe SSD",
+      "Ağırlık": "1.32 kg",
+      "İşletim Sistemi": "Windows 11 Home"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pamuklu Oversize Sweatshirt",
+    "brand": "UrbanWear",
+    "category": "Giyim",
+    "description": "%100 pamuklu, ağır gramajlı kumaştan üretilmiş oversize sweatshirt. Yumuşak iç yüzey, düşük omuz kesim ve ribana detayları ile günlük kombinlerin vazgeçilmezi.",
+    "price": 449,
+    "oldPrice": 699,
+    "images": [
+      "https://picsum.photos/seed/ms-sweat-1/900/900",
+      "https://picsum.photos/seed/ms-sweat-2/900/900",
+      "https://picsum.photos/seed/ms-sweat-3/900/900"
+    ],
+    "stock": 63,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3, 6],
+    "rating": 4.3,
+    "reviewCount": 74,
+    "createdAt": "2025-10-21",
+    "specifications": {
+      "Kumaş": "%100 Pamuk",
+      "Kalıp": "Oversize",
+      "Yaka": "Bisiklet Yaka",
+      "Yıkama": "30°C'de tersten yıkayın",
+      "Renk": "Ekru",
+      "Menşei": "Türkiye"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Slim Fit Chino Pantolon",
+    "brand": "UrbanWear",
+    "category": "Giyim",
+    "description": "Nefes alabilen pamuklu twill kumaştan üretilmiş slim fit chino pantolon. Dört cep detayı, hafif esnek yapısı ve klasik renk seçenekleriyle hem ofiste hem günlük kullanımda rahat.",
+    "price": 599,
+    "oldPrice": 849,
+    "images": [
+      "https://picsum.photos/seed/ms-chino-1/900/900",
+      "https://picsum.photos/seed/ms-chino-2/900/900",
+      "https://picsum.photos/seed/ms-chino-3/900/900"
+    ],
+    "stock": 37,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3, 6],
+    "rating": 4.1,
+    "reviewCount": 48,
+    "createdAt": "2025-08-14",
+    "specifications": {
+      "Kumaş": "%98 Pamuk, %2 Elastan",
+      "Kalıp": "Slim Fit",
+      "Paça": "Düz Paça",
+      "Cep": "4 Cep",
+      "Renk": "Lacivert",
+      "Menşei": "Türkiye"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Deri Cüzdan Classic",
+    "brand": "LeatherCo",
+    "category": "Aksesuar",
+    "description": "Gerçek dana derisinden el işçiliğiyle üretilmiş klasik cüzdan. 8 kart gözü, 2 banknot bölmesi ve RFID koruma katmanı ile hem şık hem güvenli.",
+    "price": 349,
+    "oldPrice": 549,
+    "images": [
+      "https://picsum.photos/seed/ms-wallet-1/900/900",
+      "https://picsum.photos/seed/ms-wallet-2/900/900",
+      "https://picsum.photos/seed/ms-wallet-3/900/900"
+    ],
+    "stock": 52,
+    "warranty": "1 Yıl Deri Garantisi",
+    "installmentOptions": [3],
+    "rating": 4.5,
+    "reviewCount": 88,
+    "createdAt": "2025-07-30",
+    "specifications": {
+      "Malzeme": "Gerçek Dana Derisi",
+      "Kart Gözü": "8 adet",
+      "Banknot Bölmesi": "2 adet",
+      "RFID Koruma": "Var",
+      "Boyut": "11 x 9 cm",
+      "Renk": "Taba"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Minimalist Sırt Çantası",
+    "brand": "UrbanWear",
+    "category": "Aksesuar",
+    "description": "15.6 inç dizüstü bilgisayar bölmesi bulunan, su itici kumaştan üretilmiş minimalist sırt çantası. Sırt yastıklaması, gizli fermuar cebi ve USB şarj geçişi ile şehir hayatına uygun.",
+    "price": 899,
+    "oldPrice": 1299,
+    "images": [
+      "https://picsum.photos/seed/ms-backpack-1/900/900",
+      "https://picsum.photos/seed/ms-backpack-2/900/900",
+      "https://picsum.photos/seed/ms-backpack-3/900/900"
+    ],
+    "stock": 19,
+    "warranty": "1 Yıl Garanti",
+    "installmentOptions": [3, 6, 9],
+    "rating": 4.4,
+    "reviewCount": 67,
+    "createdAt": "2025-12-01",
+    "specifications": {
+      "Hacim": "22 L",
+      "Kumaş": "Su İtici Polyester",
+      "Laptop Bölmesi": "15.6 inç",
+      "Ağırlık": "780 g",
+      "USB Geçiş": "Var",
+      "Renk": "Antrasit"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Aromatik Mum Seti",
+    "brand": "HomeAura",
+    "category": "Ev & Yaşam",
+    "description": "Üç farklı kokudan oluşan el yapımı soya mumu seti. Vanilya, lavanta ve sandal ağacı kokuları; 25'er saatlik yanma süresi ve pamuklu fitil ile uzun ömürlü kullanım.",
+    "price": 279,
+    "oldPrice": 399,
+    "images": [
+      "https://picsum.photos/seed/ms-candle-1/900/900",
+      "https://picsum.photos/seed/ms-candle-2/900/900",
+      "https://picsum.photos/seed/ms-candle-3/900/900"
+    ],
+    "stock": 34,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3],
+    "rating": 4.8,
+    "reviewCount": 143,
+    "createdAt": "2026-01-15",
+    "specifications": {
+      "İçerik": "3 adet mum",
+      "Malzeme": "Soya Wax",
+      "Fitil": "Pamuklu",
+      "Yanma Süresi": "25 saat / adet",
+      "Kokular": "Vanilya, Lavanta, Sandal Ağacı",
+      "Ağırlık": "3 x 120 g"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Bambu Kahve Fincanı (4'lü)",
+    "brand": "HomeAura",
+    "category": "Ev & Yaşam",
+    "description": "Doğal bambu lifinden üretilmiş, çevre dostu 4'lü kahve fincanı seti. Hafif yapısı, mat yüzeyi ve bulaşık makinesinde yıkanabilir özelliği ile günlük kullanıma uygun.",
+    "price": 329,
+    "oldPrice": 449,
+    "images": [
+      "https://picsum.photos/seed/ms-cup-1/900/900",
+      "https://picsum.photos/seed/ms-cup-2/900/900",
+      "https://picsum.photos/seed/ms-cup-3/900/900"
+    ],
+    "stock": 45,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3],
+    "rating": 4.2,
+    "reviewCount": 39,
+    "createdAt": "2025-11-19",
+    "specifications": {
+      "Adet": "4",
+      "Hacim": "300 ml",
+      "Malzeme": "Bambu Lif",
+      "Bulaşık Makinesi": "Uygun",
+      "Mikrodalga": "Uygun Değil",
+      "Renk": "Doğal"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Yoga Matı Pro",
+    "brand": "ActiveFit",
+    "category": "Spor",
+    "description": "6 mm kalınlığında, kaymaz yüzeyli TPE yoga matı. Çift taraflı kullanım, hafif yapısı ve taşıma askısı ile evde veya stüdyoda konforlu bir antrenman sunar.",
+    "price": 429,
+    "oldPrice": 599,
+    "images": [
+      "https://picsum.photos/seed/ms-yoga-1/900/900",
+      "https://picsum.photos/seed/ms-yoga-2/900/900",
+      "https://picsum.photos/seed/ms-yoga-3/900/900"
+    ],
+    "stock": 28,
+    "warranty": "1 Yıl Garanti",
+    "installmentOptions": [3],
+    "rating": 4.5,
+    "reviewCount": 61,
+    "createdAt": "2025-10-05",
+    "specifications": {
+      "Kalınlık": "6 mm",
+      "Malzeme": "TPE",
+      "Ölçü": "183 x 61 cm",
+      "Ağırlık": "900 g",
+      "Taşıma Askısı": "Dahil",
+      "Renk": "Mor"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Dambıl Seti 20 kg",
+    "brand": "ActiveFit",
+    "category": "Spor",
+    "description": "Ayarlanabilir ağırlık plakalarına sahip 20 kg dambıl seti. Krom kaplama bar, kaymaz tutuş ve plastik kaplı plakalar ile ev antrenmanları için güvenli bir çözüm.",
+    "price": 1499,
+    "oldPrice": 1999,
+    "images": [
+      "https://picsum.photos/seed/ms-dumbbell-1/900/900",
+      "https://picsum.photos/seed/ms-dumbbell-2/900/900",
+      "https://picsum.photos/seed/ms-dumbbell-3/900/900"
+    ],
+    "stock": 12,
+    "warranty": "2 Yıl Garanti",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.6,
+    "reviewCount": 33,
+    "createdAt": "2025-09-28",
+    "specifications": {
+      "Toplam Ağırlık": "20 kg",
+      "Bar": "Krom Kaplama",
+      "Plaka": "Plastik Kaplı",
+      "Tutuş": "Kaymaz",
+      "Set İçeriği": "2 Bar + 8 Plaka",
+      "Garanti": "2 Yıl"
+    }
+  },
+  {
+    "id": 13,
+    "name": "C Vitamini Yüz Serumu",
+    "brand": "GlowLab",
+    "category": "Kozmetik",
+    "description": "%15 saf C vitamini içeren aydınlatıcı yüz serumu. Hyaluronik asit ve E vitamini ile desteklenmiş formülü, cilt tonunu eşitler ve gün boyu nemlendirir.",
+    "price": 389,
+    "oldPrice": 519,
+    "images": [
+      "https://picsum.photos/seed/ms-serum-1/900/900",
+      "https://picsum.photos/seed/ms-serum-2/900/900",
+      "https://picsum.photos/seed/ms-serum-3/900/900"
+    ],
+    "stock": 57,
+    "warranty": "Orijinal Ürün Garantisi",
+    "installmentOptions": [3],
+    "rating": 4.4,
+    "reviewCount": 176,
+    "createdAt": "2026-01-22",
+    "specifications": {
+      "Hacim": "30 ml",
+      "Aktif Madde": "%15 C Vitamini",
+      "Cilt Tipi": "Tüm Cilt Tipleri",
+      "Kullanım": "Sabah - Akşam",
+      "Paraben": "İçermez",
+      "Son Kullanma": "12 Ay"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Mat Ruj Koleksiyonu",
+    "brand": "GlowLab",
+    "category": "Kozmetik",
+    "description": "Uzun süre kalıcı, transfer yapmayan mat ruj koleksiyonu. 3 farklı ton, nemlendirici içerik ve hafif formülü ile gün boyu konforlu kullanım sağlar.",
+    "price": 259,
+    "oldPrice": 349,
+    "images": [
+      "https://picsum.photos/seed/ms-lipstick-1/900/900",
+      "https://picsum.photos/seed/ms-lipstick-2/900/900",
+      "https://picsum.photos/seed/ms-lipstick-3/900/900"
+    ],
+    "stock": 0,
+    "warranty": "Orijinal Ürün Garantisi",
+    "installmentOptions": [3],
+    "rating": 4.0,
+    "reviewCount": 45,
+    "createdAt": "2025-06-17",
+    "specifications": {
+      "Adet": "3",
+      "Bitim": "Mat",
+      "Kalıcılık": "8 saate kadar",
+      "İçerik": "Nemlendirici",
+      "Vegan": "Evet",
+      "Son Kullanma": "24 Ay"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Mekanik Klavye RGB",
+    "brand": "TechNova",
+    "category": "Elektronik",
+    "description": "Hot-swap mekanik anahtarlara sahip RGB oyuncu klavyesi. Alüminyum üst gövde, bilek desteği ve makro desteği ile hem oyun hem ofis kullanımına uygun.",
+    "price": 1299,
+    "oldPrice": 1799,
+    "images": [
+      "https://picsum.photos/seed/ms-keyboard-1/900/900",
+      "https://picsum.photos/seed/ms-keyboard-2/900/900",
+      "https://picsum.photos/seed/ms-keyboard-3/900/900"
+    ],
+    "stock": 16,
+    "warranty": "2 Yıl Garanti",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.7,
+    "reviewCount": 154,
+    "createdAt": "2025-12-27",
+    "specifications": {
+      "Anahtar Tipi": "Mekanik (Hot-Swap)",
+      "Aydınlatma": "RGB",
+      "Bağlantı": "USB-C",
+      "Gövde": "Alüminyum",
+      "Bilek Desteği": "Dahil",
+      "Garanti": "2 Yıl"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Koşu Ayakkabısı Velocity",
+    "brand": "ActiveFit",
+    "category": "Spor",
+    "description": "Hafif ve nefes alabilen örgü üst yüzeye sahip koşu ayakkabısı. Enerji geri dönüşü sağlayan taban köpüğü ve yumuşak iç astar ile uzun mesafelerde konfor sunar.",
+    "price": 1899,
+    "oldPrice": 2499,
+    "images": [
+      "https://picsum.photos/seed/ms-shoe-1/900/900",
+      "https://picsum.photos/seed/ms-shoe-2/900/900",
+      "https://picsum.photos/seed/ms-shoe-3/900/900"
+    ],
+    "stock": 22,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.3,
+    "reviewCount": 71,
+    "createdAt": "2026-01-30",
+    "specifications": {
+      "Üst Yüzey": "Örgü Kumaş",
+      "Taban": "EVA Köpük",
+      "Ağırlık": "265 g (42 numara)",
+      "Kullanım": "Koşu / Günlük",
+      "Cinsiyet": "Unisex",
+      "Renk": "Gri / Turuncu"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Sese Gel",
+    "brand": "YapYapKanalı",
+    "category": "Eğlence",
+    "description": "Ödeme noktasına nasıl giderim konum atar mısın ?",
+    "price": 9.99,
+    "oldPrice": 10,
+    "images": [
+      "images/Hasan-2.png",
+      "images/Hasan-1.png"
+    ],
+    "stock": 13,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 4.3,
+    "reviewCount": 12,
+    "createdAt": "2016-07-15",
+    "specifications": {
+      "Üst Yüzey": "Örgü Kumaş",
+      "Taban": "Alev Gözler",
+      "Ağırlık": "105 kg (48 numara)",
+      "Kullanım": "Sese Doğru Gelin Gençler",
+      "Cinsiyet": "Sesexs",
+      "Renk": "Mor"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Selman Mee (pep)",
+    "brand": "Yürüyen lol",
+    "category": "Eğlence",
+    "description": "Bu exceli bana sat. ",
+    "price": 80,
+    "oldPrice": 27.99,
+    "images": [
+      "images/Pep.png",
+      "images/BuKalemiBanaSatma.png"
+    ],
+    "stock": 1,
+    "warranty": "30 Gün İade Garantisi",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 0.3,
+    "reviewCount": 14,
+    "createdAt": "2016-07-15",
+    "specifications": {
+      "Üst Yüzey": "Tek Çorap",
+      "Saç": "Uzun ve Yağlı",
+      "Ağırlık": "75 kg (44 numara)",
+      "Kullanım": "Öğrenci Kod yazar",
+      "Cinsiyet": "Belli Değil",
+      "Renk": "Bitter Çukuluta"
+    }
+  },
+    {
+    "id": 19,
+    "name": "MamiMan",
+    "brand": "CS adam",
+    "category": "Eğlence",
+    "description": "CS gelcen mmi ? ",
+    "price": 81,
+    "oldPrice": 27.99,
+    "images": [
+      "images/foto1.png",
+      "images/foto2.jpg",
+      "images/foto3.jpg"
+      
+    ],
+    "stock": 1,
+    "warranty": "2 Yıl Garanti",
+    "installmentOptions": [3, 6, 9, 12],
+    "rating": 0.4,
+    "reviewCount": 16,
+    "createdAt": "2016-07-15",
+    "specifications": {
+      "Üst Yüzey": "Çİft Çorap",
+      "Saç": "Kısa ve Dökülüyor",
+      "Ağırlık": "69 kg (42 numara)",
+      "Davranış": "mübarek İnsan",
+      "Cinsiyet": "Erkekkk",
+      "Renk": "Beyaz"
+    }
+  }
+
+]
